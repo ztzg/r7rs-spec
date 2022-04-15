@@ -689,6 +689,10 @@
 				  "@ifinfo"
 				  "@unnumberedsec Procedures"
 				  "@printindex fn"
+				  "@end ifinfo"
+				  "@ifinfo"
+				  "@unnumberedsec Variables"
+				  "@printindex vr"
 				  "@end ifinfo"))
       (else
        (fprintf *txi-output-port* "@c @include{%s}\\n" name)
