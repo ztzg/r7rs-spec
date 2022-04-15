@@ -1574,6 +1574,6 @@
 				   ((begin (load me) (tex->txi vic base))
 				    (txi->info (user-vicinity) base))))))))
 		 ((begin (load me) (tex->txi name))
-		  (txi->info (user-vicinity) base))
+		  (txi->info (user-vicinity) name))
 		 ((begin (load me) (tex->txi name))
-		  (txi->info (user-vicinity) base))))))))
+		  (txi->info (user-vicinity) name))))))))
