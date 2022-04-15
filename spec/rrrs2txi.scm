@@ -113,7 +113,8 @@
 ;;; \pproto has some weird stuff.  Try to extract a label; the only
 ;;; one seems to be `do'
 (define (extract-do-label proc)
-  (if (equal? "(do " (substring proc 0 4))
+  (if (and (>= (string-length proc) 4)
+           (equal? "(do " (substring proc 0 4)))
       (define-label "do")))
 (define (label->name label)
   (let ((pair (or (assoc label *new-labels*)
