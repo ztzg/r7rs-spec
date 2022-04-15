@@ -1553,13 +1553,13 @@
 (define go
   (let ((me (in-vicinity (program-vicinity) "rrrs2txi")))
     (lambda ()
-      (do ((r 6 (+ -1 r))
-	   (name "r6rs" (string-append "r" (number->string (+ -1 r)) "rs")))
+      (do ((r 7 (+ -1 r))
+	   (name "r7rs" (string-append "r" (number->string (+ -1 r)) "rs")))
 	  ((or (< r 3) (file-exists? (string-append name ".tex")))
 	   (cond ((< r 3)
 		  (do ((found? #f)
-		       (r 6 (+ -1 r))
-		       (base "r6rs" (string-append
+		       (r 7 (+ -1 r))
+		       (base "r7rs" (string-append
 				     "r" (number->string (+ -1 r)) "rs")))
 		      ((< r 3)
 		       (if (not found?) (slib:error 'could-not-find "r?rs.tex"))
