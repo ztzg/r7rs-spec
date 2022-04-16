@@ -5,10 +5,6 @@ START-INFO-DIR-ENTRY
 * R7RS: (r7rs).         The Revised(7) Report on Scheme.
 END-INFO-DIR-ENTRY
 
-usepackageamsmath
-
-   usepackagehyperref
-
 Summary
 *******
 
@@ -77,8 +73,6 @@ Revised(7) Report on the Algorithmic Language Scheme
 
 Dedicated to the memory of John McCarthy and Daniel Weinreb
 large today
-
-clearpage
 
 Summary
 *******
@@ -9896,7 +9890,7 @@ inexact :                             Exactness.           (line  23)
 * strings:                               Strings.             (line   6)
 * summary:                               (outside of any node).
                                                               (line   0)
-* summary <1>:                           Top.                 (line  27)
+* summary <1>:                           Top.                 (line  25)
 * symbols:                               Symbols.             (line   6)
 * syntactic keyword:                     Identifiers.         (line  56)
 * syntactic keyword <1>:                 Variables; syntactic keywords; and regions.
@@ -10663,112 +10657,112 @@ References
 
 
 Tag Table:
-Node: Top2238
-Node: Introduction5424
-Node: Background7274
-Node: Acknowledgments10118
-Node: Overview of Scheme12997
-Node: Semantics13209
-Node: Syntax16183
-Node: Notation and terminology17020
-Node: Base and optional features17322
-Node: Error situations and unspecified behavior18858
-Node: Entry format22098
-Node: Evaluation examples26335
-Node: Naming conventions27038
-Node: Lexical conventions28146
-Node: Identifiers28564
-Node: Whitespace and comments31832
-Node: Other notations33396
-Node: Datum labels35886
-Node: Basic concepts37465
-Node: Variables; syntactic keywords; and regions37756
-Node: Disjointness of types40320
-Node: External representations41362
-Node: Storage model43731
-Node: Proper tail recursion46161
-Node: Expressions51951
-Node: Primitive expression types52721
-Node: Variable references53049
-Node: Literal expressions53648
-Node: Procedure calls55833
-Node: Procedures57958
-Node: Conditionals61177
-Node: Assignments62089
-Node: Inclusion62778
-Node: Derived expression types63808
-Node: Conditional64475
-Node: Binding constructs72547
-Node: Sequencing81365
-Node: Iteration82979
-Node: Delayed evaluation86263
-Node: Dynamic bindings92016
-Node: Exception handling95533
-Node: Quasiquotation97096
-Node: Case-lambda101034
-Node: Macros102440
-Node: Binding constructs for syntactic keywords104654
-Node: Pattern language107560
-Node: Signaling errors in macro transformers115747
-Node: Program structure116929
-Node: Programs117223
-Node: Import declarations119154
-Node: Variable definitions121154
-Node: Top level definitions122176
-Node: Internal definitions123014
-Node: Multiple-value definitions124862
-Node: Syntax definitions125801
-Node: Record-type definitions127973
-Node: Libraries131754
-Node: Library Syntax132142
-Node: Library example136658
-Node: The REPL139923
-Node: Standard procedures141315
-Node: Equivalence predicates142758
-Node: Numbers153940
-Node: Numerical types154613
-Node: Exactness155785
-Node: Implementation restrictions158537
-Node: Implementation extensions163081
-Node: Syntax of numerical constants166664
-Node: Numerical operations169265
-Node: Numerical input and output191176
-Node: Booleans194924
-Node: Pairs and lists196987
-Node: Symbols210079
-Node: Characters213002
-Node: Strings219892
-Node: Vectors230143
-Node: Bytevectors236337
-Node: Control features241280
-Node: Exceptions257275
-Node: Environments and evaluation262073
-Node: Input and output265746
-Node: Ports265963
-Node: Input273318
-Node: Output280296
-Node: System interface284672
-Node: Formal syntax and semantics291971
-Node: Formal syntax292355
-Node: Lexical structure293231
-Node: External representation299372
-Node: Expression300157
-Node: Quasiquotations303359
-Node: Transformers304720
-Node: Programs and definitions306067
-Node: Librarie307066
-Node: Formal semantics308257
-Node: Derived expression type308823
-Node: Standard Libraries327235
-Node: Standard Feature Identifiers342614
-Node: Language changes344106
-Node: Incompatibilities with R^{5}RS344381
-Node: Other language changes since R^{5}RS346370
-Node: Incompatibilities with R^{6}RS355042
-Node: Additional material359044
-Node: Example359704
-Node: Bibliography363405
-Node: Index370577
+Node: Top2196
+Node: Introduction5371
+Node: Background7221
+Node: Acknowledgments10065
+Node: Overview of Scheme12944
+Node: Semantics13156
+Node: Syntax16130
+Node: Notation and terminology16967
+Node: Base and optional features17269
+Node: Error situations and unspecified behavior18805
+Node: Entry format22045
+Node: Evaluation examples26282
+Node: Naming conventions26985
+Node: Lexical conventions28093
+Node: Identifiers28511
+Node: Whitespace and comments31779
+Node: Other notations33343
+Node: Datum labels35833
+Node: Basic concepts37412
+Node: Variables; syntactic keywords; and regions37703
+Node: Disjointness of types40267
+Node: External representations41309
+Node: Storage model43678
+Node: Proper tail recursion46108
+Node: Expressions51898
+Node: Primitive expression types52668
+Node: Variable references52996
+Node: Literal expressions53595
+Node: Procedure calls55780
+Node: Procedures57905
+Node: Conditionals61124
+Node: Assignments62036
+Node: Inclusion62725
+Node: Derived expression types63755
+Node: Conditional64422
+Node: Binding constructs72494
+Node: Sequencing81312
+Node: Iteration82926
+Node: Delayed evaluation86210
+Node: Dynamic bindings91963
+Node: Exception handling95480
+Node: Quasiquotation97043
+Node: Case-lambda100981
+Node: Macros102387
+Node: Binding constructs for syntactic keywords104601
+Node: Pattern language107507
+Node: Signaling errors in macro transformers115694
+Node: Program structure116876
+Node: Programs117170
+Node: Import declarations119101
+Node: Variable definitions121101
+Node: Top level definitions122123
+Node: Internal definitions122961
+Node: Multiple-value definitions124809
+Node: Syntax definitions125748
+Node: Record-type definitions127920
+Node: Libraries131701
+Node: Library Syntax132089
+Node: Library example136605
+Node: The REPL139870
+Node: Standard procedures141262
+Node: Equivalence predicates142705
+Node: Numbers153887
+Node: Numerical types154560
+Node: Exactness155732
+Node: Implementation restrictions158484
+Node: Implementation extensions163028
+Node: Syntax of numerical constants166611
+Node: Numerical operations169212
+Node: Numerical input and output191123
+Node: Booleans194871
+Node: Pairs and lists196934
+Node: Symbols210026
+Node: Characters212949
+Node: Strings219839
+Node: Vectors230090
+Node: Bytevectors236284
+Node: Control features241227
+Node: Exceptions257222
+Node: Environments and evaluation262020
+Node: Input and output265693
+Node: Ports265910
+Node: Input273265
+Node: Output280243
+Node: System interface284619
+Node: Formal syntax and semantics291918
+Node: Formal syntax292302
+Node: Lexical structure293178
+Node: External representation299319
+Node: Expression300104
+Node: Quasiquotations303306
+Node: Transformers304667
+Node: Programs and definitions306014
+Node: Librarie307013
+Node: Formal semantics308204
+Node: Derived expression type308770
+Node: Standard Libraries327182
+Node: Standard Feature Identifiers342561
+Node: Language changes344053
+Node: Incompatibilities with R^{5}RS344328
+Node: Other language changes since R^{5}RS346317
+Node: Incompatibilities with R^{6}RS354989
+Node: Additional material358991
+Node: Example359651
+Node: Bibliography363352
+Node: Index370524
 
 End Tag Table
 
