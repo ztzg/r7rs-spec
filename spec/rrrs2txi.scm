@@ -1545,9 +1545,10 @@
    ;; R7RS additional symbols
    (rule 'appendix "@appendix" 0)
    (rule 'auxiliarytype "auxiliary syntax")
+   (rule 'clearpage "\\n@page\\n" -1)
    (rule 'comma "@t{,}" 1)
    (rule 'commaatsign "@t{,@@}" 2)
-   (rule 'feature (lambda (cmd me . ruls)
+   (rule 'feature (lambda (cmd me)
                     (fprintf *txi-output-port* "\\n@table @t\\n@item ")
                     (process-braced-expression)
                     (fprintf *txi-output-port* "\\n")
@@ -1569,6 +1570,10 @@
    (rule 'textrm process-argument-with-rules "@r{" "}")
    (rule 'texttt process-argument-with-rules "@t{" "}")
    (rule 'url process-argument-with-rules "@url{" "}")
+   (rule 'usepackage (lambda (cmd me)
+                       ;; Capture argument; ignore everything.
+                       (capture-argument)
+                       #t))
    (rule 'verticalbar "@t{|}" 5)
    ))
 
